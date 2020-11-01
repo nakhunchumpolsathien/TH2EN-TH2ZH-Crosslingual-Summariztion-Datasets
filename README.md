@@ -1240,11 +1240,12 @@ We conduct an experiment to investigate the effectiveness of back-translation by
 
 TNCLS, CLS+MS and CLS+MT are introduced in this [paper](https://arxiv.org/abs/1909.00156). BertSum models are presented in this [paper](https://arxiv.org/abs/1908.08345). CLS+MT+DIS is proposed in Nakhun’s thesis (unpublished).
 ## Download Dataset
+--coming very soon--
  | Dataset | Remarks | 
 | :---| :--- | 
-| [Th2En]() | contains ` th2en_full.csv`  and ` th2en_filtered.csv`   | 
-| [Th2Zh]() | contains ` th2zh_full.csv`  and ` th2zh_filtered.csv`   |
-| [test-valid]() | ` contains th2{en,zh}_test.csv`  and ` th2{en,zh}_valid.csv` . |
+| Th2En | contains ` th2en_full.csv`  and ` th2en_filtered.csv`   | 
+| Th2Zh| contains ` th2zh_full.csv`  and ` th2zh_filtered.csv`   |
+| test-valid | ` contains th2{en,zh}_test.csv`  and ` th2{en,zh}_valid.csv` . |
 
 Each CSV file contains the following columns: ` th_body` , ` th_sum` , ` {en,zh}_body` , ` {en,zh}_sum` and ` url`. 
 
@@ -1257,7 +1258,7 @@ If you would like to obtain trained models (with vocabulary files) as reported i
 -	These cross-lingual datasets, including TR-TPBS, are parts of Nakhun Chumpolsathien’s master’s thesis at school of computer science, Beijing Institute of Technology. Therefore, as well, a great appreciation goes to his supervisor, Assoc. Prof. Gao Yang.
 -	We would like to thank Beijing Engineering Research Center of High Volume Language Information Processing and Cloud Computing Applications for providing computing resources to conduct the experiment.
 -	In this experiment, we used PyThaiNLP v. 2.2.4  to tokenize (on both word & sentence levels) Thai texts. For Chinese and English segmentation, we used Stanza. 
--	We used ‘scb-mt-en-th-2020’ dataset to jointly train machine translation loss in CLS+MT and CLS+MT+DIS (Th2En).
+-	We used [‘scb-mt-en-th-2020’](https://arxiv.org/abs/2007.03541) dataset to jointly train machine translation loss in CLS+MT and CLS+MT+DIS (Th2En).
 
 ## License
 Th2En and Th2Zh datasets are licensed under [MIT License]( https://github.com/nakhunchumpolsathien/TH2EN-TH2ZH-Crosslingual-Summariztion-Datasets/blob/master/LICENSE).
