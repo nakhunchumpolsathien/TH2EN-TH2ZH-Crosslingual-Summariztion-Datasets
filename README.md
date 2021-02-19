@@ -1255,7 +1255,7 @@ If you would like to obtain trained models (with vocabulary files) as reported i
 -	Nakhun Chumpolsathien, School of Computer Science, Beijing Institute of Technology (BIT)
 -	Tanachart Arayachutinan, BIT, (Contribution was made during his Master's candidacy at BIT.)
 ## Acknowledgement
--	These cross-lingual datasets, including TR-TPBS, are parts of Nakhun Chumpolsathien’s master’s thesis at school of computer science, Beijing Institute of Technology. Therefore, as well, a great appreciation goes to his supervisor, Assoc. Prof. Gao Yang.
+-	These cross-lingual datasets, including TR-TPBS, are parts of [Nakhun Chumpolsathien](https://www.linkedin.com/in/nakhun)’s master’s thesis at school of computer science, Beijing Institute of Technology. Therefore, as well, a great appreciation goes to his supervisor, [Assoc. Prof. Gao Yang](https://www.researchgate.net/profile/Yang-Gao-60).
 -	We would like to thank Beijing Engineering Research Center of High Volume Language Information Processing and Cloud Computing Applications for providing computing resources to conduct the experiment.
 -	In this experiment, we used PyThaiNLP v. 2.2.4  to tokenize (on both word & sentence levels) Thai texts. For Chinese and English segmentation, we used Stanza. 
 -	We used [‘scb-mt-en-th-2020’](https://arxiv.org/abs/2007.03541) dataset to jointly train machine translation loss in CLS+MT and CLS+MT+DIS (Th2En).
