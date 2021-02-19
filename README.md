@@ -1253,7 +1253,7 @@ Each CSV file contains the following columns: ` th_body` , ` th_sum` , ` {en,zh}
 If you would like to obtain trained models (with vocabulary files) as reported in this experiment for research purposes, these models are available per request. Please contact nakhun.chum(at sign)gmail.com.
 ## Contributors
 -	Nakhun Chumpolsathien, School of Computer Science, Beijing Institute of Technology (BIT)
--	Tanachart Arayachutinan, BIT, (Contribution was made during his Master's candidacy at BIT.)
+-	[Tanachart Arayachutinan](https://www.linkedin.com/in/tanachart), BIT, (Contribution was made during his Master's candidacy at BIT.)
 ## Acknowledgement
 -	These cross-lingual datasets, including TR-TPBS, are parts of [Nakhun Chumpolsathien](https://www.linkedin.com/in/nakhun)’s master’s thesis at school of computer science, Beijing Institute of Technology. Therefore, as well, a great appreciation goes to his supervisor, [Assoc. Prof. Gao Yang](https://www.researchgate.net/profile/Yang-Gao-60).
 -	We would like to thank Beijing Engineering Research Center of High Volume Language Information Processing and Cloud Computing Applications for providing computing resources to conduct the experiment.
